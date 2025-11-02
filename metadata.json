@@ -1,0 +1,5 @@
+{
+  "name": "Image Optimizer Pro",
+  "description": "A fully responsive, client-side image compression tool. Allows users to upload images, select a compression level with a real-time preview, and download the optimized image. Includes designated spaces for advertisements for easy monetization.",
+  "requestFramePermissions": []
+}

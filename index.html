@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Optimizer Pro - Compress & Optimize Images Online</title>
+    <meta name="description" content="Free online image compressor to optimize your images (JPEG, PNG, WEBP) with a simple slider. Reduce file size without losing significant quality. Fast, secure, and fully responsive." />
+    <meta name="keywords" content="image compressor, image optimizer, compress jpeg, compress png, reduce image size, photo optimizer, online tool" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOUR_ADSENSE_ID"
+     crossorigin="anonymous"></script>
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+      /* Custom Range Slider Styles */
+      input[type="range"] {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 100%;
+        background: transparent;
+        cursor: pointer;
+      }
+      input[type="range"]:focus {
+        outline: none;
+      }
+
+      /* Webkit (Chrome, Safari) Track */
+      input[type="range"]::-webkit-slider-runnable-track {
+        background: #e2e8f0; /* slate-200 */
+        height: 0.5rem;
+        border-radius: 0.5rem;
+      }
+      .dark input[type="range"]::-webkit-slider-runnable-track {
+        background: #334155; /* slate-700 */
+      }
+
+      /* Webkit (Chrome, Safari) Thumb */
+      input[type="range"]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        margin-top: -6px; /* Position thumb vertically */
+        background-color: #2563eb; /* blue-600 */
+        height: 1.5rem;
+        width: 1.5rem;
+        border-radius: 9999px;
+        border: 4px solid white;
+        box-shadow: 0 0 0 2px #2563eb;
+        transition: transform 0.1s ease-in-out;
+      }
+      input[type="range"]:active::-webkit-slider-thumb {
+        transform: scale(1.1);
+      }
+      .dark input[type="range"]::-webkit-slider-thumb {
+        border-color: #1e293b; /* slate-800 */
+      }
+      
+      /* Mozilla (Firefox) Track */
+      input[type="range"]::-moz-range-track {
+        background: #e2e8f0; /* slate-200 */
+        height: 0.5rem;
+        border-radius: 0.5rem;
+      }
+      .dark input[type="range"]::-moz-range-track {
+        background: #334155; /* slate-700 */
+      }
+
+      /* Mozilla (Firefox) Thumb */
+      input[type="range"]::-moz-range-thumb {
+        background-color: #2563eb; /* blue-600 */
+        height: 1.5rem;
+        width: 1.5rem;
+        border-radius: 9999px;
+        border: 4px solid white;
+        box-shadow: 0 0 0 2px #2563eb;
+        transition: transform 0.1s ease-in-out;
+      }
+       input[type="range"]:active::-moz-range-thumb {
+        transform: scale(1.1);
+      }
+      .dark input[type="range"]::-moz-range-thumb {
+        border-color: #1e293b; /* slate-800 */
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+</head>
+  <body class="bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-slate-200 antialiased">
+    <div id="root"></div>
+  </body>
+</html>
